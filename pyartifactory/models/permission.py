@@ -23,6 +23,7 @@ class PermissionEnum(str, Enum):
     deploy = "w"
     annotate = "n"
     read = "r"
+    manage_xray_meta = "mxm"
 
 
 class PrincipalsPermission(BaseModel):
